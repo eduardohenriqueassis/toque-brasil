@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Eduardo Assis | Ducabelo">
+  <title>TOQUE BRASIL | INSTRUMENTOS MUSICAIS</title>
+
+  <!-- Description -->
+  <meta name="description" content="Toque Brasil Instrumentos Musicais - Lojas em Pirassununga e Porto Ferreira.
+      Instrumentos, Acessórios e equipamentos
+      de áudio em geral. Lugar de realizar sonhos">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/324bf3ac74.js" crossorigin="anonymous"></script>
+
+  <!-- Facebook´s Open Graph Data -->
+  <!-- <meta property="og:image" content="https://developer.mozilla.org/static/img/opengraph-logo.png">
+  <meta property="og:description" content="A Mozilla Developer Network (MDN) fornece
+      informações sobre tecnologias Open Web, incluindo HTML, CSS e APIs para ambos os sites da Web
+      e aplicativos HTML5. Ele também documenta produtos Mozilla, como o sistema operacional Firefox.">
+  <meta property="og:title" content="Mozilla Developer Network"> -->
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-header">
+        <img class="logo-svg" src="img/logo-toque.svg" alt="Logo Toque Brasil" loading="lazy">
+      </div>
+      <!-- Search bar -->
+      <div class="search">
+        <form class="search-main" action="busca-de-produtos" method="POST">
+          <input type="text" id="txt-search" name="txt-search" placeholder="Busque seu produto..." autofocus />
+          <button class="button-search-main"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <!-- account -->
+      <div class="account">
+        <a href="#">Sua conta <span>crie sua conta ou faça seu login</span></a>
+        <a href="#"><i class="fas fa-lock"></i></a>
+      </div>
+
+      <!-- Chart -->
+      <div class="chart">
+        <a href="#">Carrinho <i class="fa fa-shopping-cart"></i><span class="product-counter">5</span></a>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar -->
+  <nav id="nav">
+    <div id="menu" class="menu">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-controls="ul-menu" aria-haspopup="true" aria-expanded="false">
+        <span id="hamburguer"></span>
+      </button>
+      <ul id="ul-menu" role="menu">
+        <li><a href="#" class="active">Ofertas</a></li>
+        <li><a href="#" class=""><i class="fas fa-sliders-h"></i> Áudio</a></li>
+        <li><a href="#">Instrumentos</a></li>
+        <li><a href="#">Pedais</a></li>
+        <li><a href="#">Acessórios</a></li>
+        <li><a href="#">Percussão</a></li>
+        <li><a href="#">Usados</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Slider -->
+
+  <section class="carousel-1">
+    <div class="slider-content">
+      <!-- Image slider start -->
+      <div class="slider">
+
+        <!-- Slide 1 -->
+        <div class="slide active2">
+          <img src="img-referencia/MadeDelivery.webp" alt="promoção 1" class="img-slide">
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+          <img src="img-referencia/MadeDelivery.webp" alt="promoção 2" class="img-slide">
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <img src="img-referencia/MadeDelivery.webp" alt="promoção 3" class="img-slide">
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide">
+          <img src="img-referencia/MadeDelivery.webp" alt="promoção 4" class="img-slide">
+        </div>
+
+        <div class="navigation">
+          <div class="btn active2"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Section -->
+  <main>
+    <div class="title">
+      <h1>ofertas da semana</h1>
+      <div class="bar"></div>
+    </div>
+
+    <!-- owl carousel -->
+    <div class="carousel-products">
+      <div class="carousel-container">
+        <div class="carousel-inner">
+          <div class="track">
+            <!-- Card 1 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 1 -->
+
+            <!-- Card 2 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 2 -->
+
+            <!-- Card 3 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 3 -->
+
+            <!-- Card 4 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 4 -->
+
+            <!-- Card 5 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 5 -->
+
+            <!-- Card 6 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 6 -->
+
+            <!-- Card 7 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 7 -->
+
+            <!-- Card 8 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 8 -->
+
+
+            <!-- Card 9 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 9 -->
+
+            <!-- Card 10 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 10 -->
+
+            <!-- Card 11 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 11 -->
+
+            <!-- Card 12 -->
+            <div class="card-container">
+              <div class="card">
+                <!-- img -->
+                <div class="img">
+                </div>
+                <!-- products info -->
+                <div class="info">
+                  <h4 class="spot-title">
+                    Caixa Blackstar <span>Acústica Angulada com 4 Falantes Celestion Seventy80 ID 412B 320w 4x12"</span>
+                  </h4>
+                  <div class="preco-de">
+                    <span class="moeda">R$ </span><span class="valor-origin">4.299,00</span>
+                  </div>
+
+                  <div class="boleto">
+                    <span class="boleto-valor">R$ 2.691,00</span><span class="boleto-off"> à vista.</span>
+                  </div>
+
+                  <div class="preco-parcelado">
+                    <span class="moeda">R$ </span><span class="valor">2.990,00</span> em até
+                  </div>
+
+                  <div class="preco-parcela"><span class="qtde-parc">10x </span><span class="parc-de">de </span><span class="parcela">R$ 299,00</span> sem juros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 12 -->
+          </div>
+        </div>
+
+
+        <!-- Next and Previous button -->
+        <div class="nav">
+          <button class="prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Outras ofertas -->
+    <div class="title">
+      <h1>outras ofertas</h1>
+      <div class="bar"></div>
+    </div>
+  </main>
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>
