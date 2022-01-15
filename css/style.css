@@ -206,7 +206,6 @@ header .product-counter {
 @media (max-width: 448px) {
   header .container {
     display: grid;
-    justify-content: space-between;
     grid-template-areas:
       'logo-header logo-header logo-header logo-header'
       'account account chart chart'
@@ -215,6 +214,7 @@ header .product-counter {
   }
   header .logo-header {
     justify-self: center;
+    transform: translateX(5%);
   }
   header .account {
     justify-self: left;
@@ -275,7 +275,7 @@ nav .menu a:hover {
   font-size: 1rem;
   transform: rotate(90deg);
 }
-@media (max-width: 800px) {
+@media (max-width: 888px) {
   #btn-mobile {
     display: flex;
     padding: 0.5rem;
@@ -354,7 +354,7 @@ nav .menu a:hover {
   /* border: 2px solid aquamarine; */
   overflow: hidden;
 }
-.slider-content {
+.carousel-1 .slider-content {
   margin: 0 auto;
   max-height: 195px;
 }
@@ -363,32 +363,43 @@ nav .menu a:hover {
   min-width: 470px;
 }
 
-.slider {
+.carousel-1 .slider {
   position: relative;
   margin: 0 auto;
 }
 
-.slide {
+.carousel-1 .slide {
   position: absolute;
   width: 100%;
   height: 100%;
   clip-path: circle(0.5% at 0 50%);
 }
-.slide.active2 {
+.carousel-1 .slide.active2 {
   /* background: #ccc; */
   clip-path: circle(150% at 0 50%);
   transition: 3s;
   transition-property: clip-path;
 }
 
-.navigation {
+.carousel-1 .navigation {
   z-index: 2;
   position: absolute;
   display: flex;
   bottom: -35px;
-  left: 46%;
+  left: 43%;
+  transition: all 0.3s ease;
 }
-.btn {
+@media (max-width: 800px) {
+  .carousel-1 .navigation {
+    left: 40%;
+  }
+}
+@media (max-width: 380px) {
+  .carousel-1 .navigation {
+    left: 30%;
+  }
+}
+.carousel-1 .btn {
   background: rgba(0, 0, 0, 0.5);
   width: 12px;
   height: 12px;
@@ -396,7 +407,7 @@ nav .menu a:hover {
   border-radius: 50%;
   cursor: pointer;
 }
-.btn.active2 {
+.carousel-1 .btn.active2 {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   background: chocolate;
 }
