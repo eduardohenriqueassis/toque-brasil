@@ -2,13 +2,13 @@
 main .outras-ofertas {
   max-width: 1272px;
   margin: 50px auto;
+  padding: 0 40px;
 }
 main .outras-ofertas .title {
   margin-bottom: 60px;
 }
 main .outras-ofertas .product-spot {
   padding: 0 10px;
-  margin: 20px;
 }
 main .outras-ofertas .card-container {
   padding: 0;
@@ -17,6 +17,7 @@ main .outras-ofertas .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
+  margin: 20px 0;
 }
 
 main .outras-ofertas .card-container .card {

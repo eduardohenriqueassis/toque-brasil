@@ -116,7 +116,7 @@ function adjustItemsOnResize() {
   carouselWidth = document.querySelector('.carousel-container').offsetWidth;
   track.style.transform = `translateX(-${index * carouselWidth}px)`;
 
-  if (carouselWidth >= 789 && carouselWidth < 1000 && index > 3) {
+  if (carouselWidth >= 755 && carouselWidth < 1000 && index > 3) {
     index = 3;
   } else if (carouselWidth >= 1000 && index > 2) {
     index = 2;
@@ -127,9 +127,9 @@ function adjustItemsOnResize() {
 // showBtnOnResize();
 
 function showBtnOnResize() {
-  if (carouselWidth < 790 && index === 5) {
+  if (carouselWidth < 756 && index === 5) {
     next.classList.add('hide');
-  } else if (carouselWidth < 790 && index < 5) {
+  } else if (carouselWidth < 756 && index < 5) {
     next.classList.remove('hide');
   } else if (carouselWidth < 1000 && index === 3) {
     next.classList.add('hide');
@@ -147,14 +147,14 @@ next.addEventListener('click', () => {
   track.style.transform = `translateX(-${index * carouselWidth}px)`;
   if (carouselWidth > 1002 && index === 2) {
     next.classList.add('hide');
-  } else if (carouselWidth < 790 && index >= 5) {
+  } else if (carouselWidth < 756 && index >= 5) {
     next.classList.add('hide');
-  } else if (carouselWidth < 790 && index < 5) {
+  } else if (carouselWidth < 756 && index < 5) {
     next.classList.remove('hide');
   } else if (carouselWidth <= 1002 && index === 3) {
     next.classList.add('hide');
   }
-  // console.log(index)
+  console.log(index);
 });
 
 prev.addEventListener('click', () => {
@@ -164,5 +164,5 @@ prev.addEventListener('click', () => {
     prev.classList.remove('show');
   }
   track.style.transform = `translateX(-${index * carouselWidth}px)`;
-  // console.log(index);
+  console.log(index);
 });

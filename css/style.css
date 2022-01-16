@@ -386,18 +386,9 @@ nav .menu a:hover {
   position: absolute;
   display: flex;
   bottom: -35px;
-  left: 43%;
+  left: 50%;
+  transform: translateX(-50%);
   transition: all 0.3s ease;
-}
-@media (max-width: 800px) {
-  .carousel-1 .navigation {
-    left: 40%;
-  }
-}
-@media (max-width: 380px) {
-  .carousel-1 .navigation {
-    left: 30%;
-  }
 }
 .carousel-1 .btn {
   background: rgba(0, 0, 0, 0.5);

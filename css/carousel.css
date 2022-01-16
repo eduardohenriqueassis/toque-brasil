@@ -223,7 +223,7 @@
     transform: scale(0.7);
   }
   .carousel-products .boleto-valor {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 350px) {
