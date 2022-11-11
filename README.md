@@ -20,7 +20,7 @@ A página inicial contém:
 Depois de finalizadas todas as páginas necessárias, irei trabalhar no Back-End usando o PHP.
 
 ---
-[Página](https://ducabelo.github.io/toque-brasil/)
+[Página](https://eduardohenriqueassis.github.io/toque-brasil/)
 
 [Design no Figma](https://www.figma.com/file/N7YloeNxZx2tSxQ2pKmjAY/Toque-Brasil?node-id=0%3A1)
 
